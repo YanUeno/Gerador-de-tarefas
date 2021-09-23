@@ -1,6 +1,7 @@
 
 
-const Salvar = ()=>{
+const Salvar = (evento)=>{
+    evento.preventDefault();
     html2canvas(
         document.getElementById("mydiv")).then(function (canvas) {			
         var anchorTag = document.createElement("a");
