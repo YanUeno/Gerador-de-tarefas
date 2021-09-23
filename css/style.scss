@@ -1,0 +1,86 @@
+body{
+    background-color: #363636;
+    color: #fff;
+    font-family: "Space Mono", monospace;
+}
+.done{
+    h3{
+        text-decoration: line-through;
+    }
+   
+}
+
+.group{
+    #mydiv{
+        background-color: #363636;
+    }
+    .caixa-controle{
+        border-bottom: 2px solid black;
+        h1{
+            border-bottom: 1px solid green;
+        }
+        form{
+            #download{
+                position: absolute;
+                left: -65px;
+                top: 45px;
+                background-color: transparent;
+                border: none;
+                color: white;
+                font-size: 30px;
+            }
+            .btn.btn-outline-secondary{
+                color: #259be0;
+                option{
+                    color: black;
+                }
+            }
+        }
+    }
+    
+    .caixa-lista{
+        border:2px solid #147cb9;
+        min-height: 150px;
+        min-width: 100px;
+        margin: 5px;
+        // -webkit-box-shadow: -4px 1px 7px 1px rgba(0,0,0,0.61); 
+        // box-shadow: -4px 1px 7px 1px rgba(0,0,0,0.61);
+        h2{
+            text-align: center;
+            border-bottom: 1px solid black;
+            color: #fff;
+        }
+        
+        .lista{
+            list-style: none;
+            padding: 0;
+            margin: 10px;
+            li{
+                background-color: #F6F1D1;
+                display: flex;
+                justify-content: normal;
+                margin-bottom: 0.5rem;
+                padding: 0.5rem 0rem;
+                position: relative;
+                button{
+                    border: none;
+                    background: transparent;
+                    font-size: 20px;
+                }
+                span{
+                    position: absolute;
+                    right: 5px;
+                    top: -10px;
+                
+                }
+                h3{
+                    font-size: 19px;
+                    margin-left: 5px;
+                    color: black;
+                    max-width: 240px;
+                    flex-grow: 1;
+                }
+            }
+        }
+    }
+}
